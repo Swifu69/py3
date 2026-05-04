@@ -18,9 +18,9 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: tests
-        setup-command: pip install pytest
-        command: pytest tests/ -v
-        timeout: 30
+        setup-command: pip install poetry && pip install pytest && poetry install
+        command: poetry run pytest tests/ -v
+        timeout: 60
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
