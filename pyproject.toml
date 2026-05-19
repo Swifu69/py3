@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "health-app"
+version = "0.1.0"
+description = "Health App API for Obligation 3"
+authors = ["Johan Borgersen"]
+readme = "README.md"
+packages = [{ include = "health_app", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.34.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

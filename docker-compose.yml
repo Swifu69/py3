@@ -1,1 +1,9 @@
-
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      HEALTH_RECORDS_FILE: /app/data/health_records.json

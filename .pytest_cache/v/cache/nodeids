@@ -1,0 +1,16 @@
+[
+  "tests/test_data.py::test_get_statistics",
+  "tests/test_data.py::test_load_nonexistent_file_returns_empty_list",
+  "tests/test_data.py::test_save_and_load_roundtrip",
+  "tests/test_health.py::test_calculate_bmi",
+  "tests/test_health.py::test_create_user_health",
+  "tests/test_health.py::test_empty_name_raises_error",
+  "tests/test_health.py::test_get_health_advice_returns_string",
+  "tests/test_health.py::test_get_ideal_weight",
+  "tests/test_health.py::test_invalid_height_raises_error",
+  "tests/test_health.py::test_invalid_weight_raises_error",
+  "tests/test_health.py::test_normal_category",
+  "tests/test_health.py::test_obese_category",
+  "tests/test_health.py::test_overweight_category",
+  "tests/test_health.py::test_underweight_category"
+]

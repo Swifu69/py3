@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Alice",
+    "weight_kg": 65.0,
+    "height_m": 1.7,
+    "calculated_bmi": 22.49
+  },
+  {
+    "name": "Alice",
+    "weight_kg": 65.0,
+    "height_m": 1.7,
+    "calculated_bmi": 22.49
+  }
+]
